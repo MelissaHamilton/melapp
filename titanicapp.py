@@ -24,7 +24,7 @@ def main():
     Parch = st.text_input('Parent/Child')
     Fare = st.text_input('Fare')
     Embarked = st.text_input('Embarked')
-
+    result = ''
     if st.button('Predict'):
         #convert the input to appropriate data types
         Pclass = int(Pclass)
